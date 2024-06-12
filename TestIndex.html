@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>work order form</title>
+<style>
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  } */
+ 
+  #styleForm {
+  max-width: 1300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+/* .head{
+  background-color: #f4f7f8;
+  /* resize: horizontal; 
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  
+} */
+.line_One{
+    background-color: #f4f7f8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
+.line_two{
+    background-color: #f4f7f8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
+.line_three{
+    background-color: #f4f7f8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.line_four{
+    background-color: #f4f7f8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.line_five{
+    background-color: #f4f7f8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.line_six{
+    background-color: #f4f7f8;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em; 
+}
+
+.image{
+    position: relative;
+    top: 20px;
+}
+.pImage{
+    position: relative;
+    top: 20px;
+}
+.Limage{
+
+}
+
+.lining{
+    position: relative;
+    /* right: 150px; */
+}
+.length{
+    position: relative;
+    right: 140px; 
+}
+.embossing{
+    position: relative;
+    right: 200px;
+}
+.height{
+    position: relative;
+    right: 150px;
+}
+.width{
+    position: relative;
+    right: 150px;
+}
+.targetdate{
+    position: relative;
+    right: 82px;
+}
+/* .accessories{
+    position: relative;
+    right: 190px;
+} */
+
+
+/* #myForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  } */
+
+ 
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .inside{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    /* background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; */
+    width: 40%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #9c6b6b;
+  border-radius: 4px;
+  position: relative;
+  left: 500px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Dropdown */
+  .accessories {
+            font-weight: bold;
+            margin-right: 10px;
+            position: relative;
+            right: 18px;
+
+        }
+
+        select {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #d8e3e6;
+            font-size: 14px;
+            position: relative;
+            right: 18px;
+        }
+
+        select:focus {
+            border-color: #748ea9;
+            outline: none;
+            box-shadow: 0 0 5px rgba(164, 196, 231, 0.997);
+        }
+
+        div {
+            margin: 10px 0;
+            
+
+        }
+</style>
+</head>
+<body>
+    <div id="formContainer">
+            <form id="myForm">
+                <div class="head">
+                    <div class="line_One">
+                        <div>
+                            <label for="date">Date:</label>
+                            <input type="text" id="date" name="date">
+                        </div>
+                        <div>
+                            <label for="workOrderNumber">Work Order Number:</label>
+                            <input type="text" id="workOrderNumber" name="workOrderNumber" required>
+            
+                        </div>
+                        <div>
+                            <label for="udin">UDIN:</label>
+                            <input type="text" id="workOrderNumber" name="udin">
+
+                        </div>
+
+                    </div>
+                    <div class="line_two">
+                        <div>
+                            <label for="customerStyleNumber">Customer Style Number:</label>
+                            <input type="text" id="customerStyleNumber" name="customerStyleNumber">
+                        </div>
+                        <div>
+                            <label for="packingMaterial">Customer Code:</label>
+                            <input type="text" id="packingMaterial" name="packingMaterial">            
+
+                        </div>
+                         <div>
+                            <label for="lumensStyleNumber">Lumens style Number:</label>
+                            <input type="text" id="lumensStyleNumber" name="lumensStyleNumber" required>
+                        </div>
+                       
+
+                    </div>
+                   
+
+                </div>
+                <div class="varibale">
+                    <div class="line_three">
+
+                        <div>
+                            <label for="hardwareColor">Hardware Color:</label>
+                            <input type="text" id="hardwareColor" name="hardwareColor" required>
+                        </div>
+                       
+                        <div>
+                            <label for="leatherColor">Leather:</label>
+                            <input type="text" id="leatherColor" name="leatherColor" required>
+                        </div>
+                        <div>
+                            <label for="thread">Thread:</label>
+                            <input type="text" placeholder="Thread OutSide" id="thread" name="thread" required>
+                            <input type="text" class="inside" name="threadInside" required>
+                        </div>
+                        <div>
+                            <label for="zipper">Zipper:</label>
+                            <input type="text" placeholder="Zipper OutSide" id="zipper" name="zipper" required>
+                            <input type="text" class="inside" name="zipperOutside" required>
+                        </div>
+
+                    </div>
+                    <div class="line_four">
+
+                        
+                        <div>
+                            <label for="lining" class="lining">Lining:</label>
+                            <input type="text" class="lining" name="lining" required>
+                        </div>
+                        <div>
+                            <label for="embossing" class="embossing">Embossing:</label>
+                            <input type="text" class="embossing" name="embossing" required>
+                        </div>
+                        <div>
+                            <div class="image">
+                                <a href="https://forms.gle/BWqmfwPGYs7ScapU6" target="_blank">Embossing Image</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="Limage">
+                                <a href="https://forms.gle/BWqmfwPGYs7ScapU6" target="_blank" >Lining Image</a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+  
+                        <div class="line_five">
+                            <div>
+                                <label for="handleDropLength">Handle Drop Length:</label>
+                                <input type="text" id="handleDropLength" name="handleDropLength" required>
+
+                            </div>
+                            <div>
+                                <label for="length" class="length">Length:</label>
+                                <input type="text" class="length" name="length" required>
+                            </div>
+                            <div>
+                                <label for="height" class="height">Height:</label>
+                                <input type="text" class="height" name="height" required>
+                            </div>
+                            <div>
+                                <label for="width" class="width">Width:</label>
+                                <input type="text" class="width" name="width" required>
+                            </div>
+
+                        </div>
+                        <div class="line_six">
+                            
+                                <div>
+                                    <label for="qtyofPorduct">QTY Of Product:</label>
+                                    <input type="text" id="qtyofPorduct" name="qtyofPorduct" required>
+                                </div>
+                                <div>
+                                    <label for="targetdate" class="targetdate">Target Date:</label>
+                                    <input type="text" class="targetdate" name="targetdate" required>
+                                </div>
+                                <div>
+                                    <div >
+                                        <label for="accessories" class="accessories">Filled up by:</label>
+                                        <select id="accessories" name="accessories">
+                                            <option value=" ">Select Merchant Name</option>
+                                            <option value="SUDIPTA BISWAS">SUDIPTA BISWAS</option>
+                                            <option value="APURWA KUMAR">APURWA KUMAR</option>
+                                            <option value="RESHMI SHIL">RESHMI SHIL</option>
+                                            <option value="AHIRTAVIYAS PAL">AHIRTAVIYAS PAL</option>
+                                            <option value="SOMNATH MUKHERJEE">SOMNATH MUKHERJEE</option>
+                                
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div class="pImage">
+                                        <a href="https://forms.gle/kkhpemZu2pr7RPq66" target="_blank">Product Image</a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="image">
+                                        <a href="https://forms.gle/iECxKSMPGaSQcUZh9" target="_blank">Pacing Image</a>
+        
+                                    </div>
+                                </div>
+                                
+                            
+
+                        </div>
+
+                        
+
+                </div>
+
+                
+                <label for="packingInstruction">Packing Instruction:</label>
+                <input type="text" id="packingInstruction" name="packingInstruction">
+
+                <label for="productDescription">Product Description:</label>
+                <input type="text" id="productDescription" name="productDescription">
+
+                <label for="additionalComment">Additional Comment:</label>
+                <input type="text" id="additionalComment" name="additionalComment" >
+
+
+                <!-- Add other fields here -->
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>    
+      <div><button>Add more Style</button></div>
+      
+      <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+          event.preventDefault();
+          sendData();
+        });
+      
+        function sendData() {
+          var form = document.getElementById("myForm");
+          var formData = new FormData(form);
+          var xhr = new XMLHttpRequest();
+          xhr.onreadystatechange = function() {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+              console.log("Data submitted successfully!");
+              form.reset();
+            }
+          };
+          xhr.open("POST", "https://script.google.com/macros/s/AKfycbyFNVGigbIKccNgvvCye8_jI5o1zTGG2ZnjPTV30bNovAPdy_LW3Cq3ZL3BxxX_xnpp/exec");
+          xhr.send(formData);
+        }
+      </script></body>
+</html>
+<!--new https://script.google.com/macros/s/AKfycbyFNVGigbIKccNgvvCye8_jI5o1zTGG2ZnjPTV30bNovAPdy_LW3Cq3ZL3BxxX_xnpp/exec -->
+
+<!-- https://script.google.com/macros/s/AKfycbz2mMhpWfNjqRtEQGm2U39QN76kyn9jbSxgmOqrR1WrPHqz8Eih9z0C6NjooEYTY3kN/exec -->
