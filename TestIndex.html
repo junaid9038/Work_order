@@ -15,7 +15,7 @@
     align-items: center;
     height: 100%;
   } */
- 
+
   #styleForm {
   max-width: 1300px;
   margin: 20px auto;
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: space-around;
   margin: 1em;
-  
+
 } */
 .line_One{
     background-color: #f4f7f8;
@@ -95,11 +95,11 @@
 }
 .length{
     position: relative;
-    right: 140px; 
+    right: 120px; 
 }
 .embossing{
     position: relative;
-    right: 200px;
+    right: 175px;
 }
 .height{
     position: relative;
@@ -111,7 +111,7 @@
 }
 .targetdate{
     position: relative;
-    right: 82px;
+    right: 55px;
 }
 /* .accessories{
     position: relative;
@@ -128,7 +128,7 @@
     width: 100%;
   } */
 
- 
+
 
   label {
     display: block;
@@ -200,7 +200,7 @@
 
         div {
             margin: 10px 0;
-            
+
 
         }
 </style>
@@ -217,10 +217,10 @@
                         <div>
                             <label for="workOrderNumber">Work Order Number:</label>
                             <input type="text" id="workOrderNumber" name="workOrderNumber" required>
-            
+
                         </div>
                         <div>
-                            <label for="udin">UDIN:</label>
+                            <label for="udin">UIDN:</label>
                             <input type="text" id="workOrderNumber" name="udin">
 
                         </div>
@@ -237,13 +237,13 @@
 
                         </div>
                          <div>
-                            <label for="lumensStyleNumber">Lumens style Number:</label>
+                            <label for="lumensStyleNumber">Lumens Style Number:</label>
                             <input type="text" id="lumensStyleNumber" name="lumensStyleNumber" required>
                         </div>
-                       
+
 
                     </div>
-                   
+
 
                 </div>
                 <div class="varibale">
@@ -253,26 +253,28 @@
                             <label for="hardwareColor">Hardware Color:</label>
                             <input type="text" id="hardwareColor" name="hardwareColor" required>
                         </div>
-                       
+
                         <div>
                             <label for="leatherColor">Leather:</label>
-                            <input type="text" id="leatherColor" name="leatherColor" required>
+                            <!-- <input type="text" id="leatherColor" name="leatherColor" required> -->
+                            <textarea id="leatherColor" name="leatherColor" required style="border-radius: 4px;"></textarea>
+
                         </div>
                         <div>
                             <label for="thread">Thread:</label>
                             <input type="text" placeholder="Thread OutSide" id="thread" name="thread" required>
-                            <input type="text" class="inside" name="threadInside" required>
+                            <input type="text" placeholder="Thread InSide" class="inside" name="threadInside" required>
                         </div>
                         <div>
                             <label for="zipper">Zipper:</label>
                             <input type="text" placeholder="Zipper OutSide" id="zipper" name="zipper" required>
-                            <input type="text" class="inside" name="zipperOutside" required>
+                            <input type="text" placeholder="Zipper InSide" class="inside" name="zipperOutside" required>
                         </div>
 
                     </div>
                     <div class="line_four">
 
-                        
+
                         <div>
                             <label for="lining" class="lining">Lining:</label>
                             <input type="text" class="lining" name="lining" required>
@@ -292,10 +294,10 @@
                                 <a href="https://forms.gle/BWqmfwPGYs7ScapU6" target="_blank" >Lining Image</a>
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
-  
+
                         <div class="line_five">
                             <div>
                                 <label for="handleDropLength">Handle Drop Length:</label>
@@ -317,30 +319,33 @@
 
                         </div>
                         <div class="line_six">
-                            
+
                                 <div>
-                                    <label for="qtyofPorduct">QTY Of Product:</label>
+                                    <label for="qtyofPorduct">QTY. Of Product:</label>
                                     <input type="text" id="qtyofPorduct" name="qtyofPorduct" required>
                                 </div>
                                 <div>
-                                    <label for="targetdate" class="targetdate">Target Date:</label>
+                                    <label for="targetdate" class="targetdate">Target Completion Date:</label>
                                     <input type="text" class="targetdate" name="targetdate" required>
                                 </div>
                                 <div>
                                     <div >
-                                        <label for="accessories" class="accessories">Filled up by:</label>
+                                        <label for="accessories" class="accessories">Filled Up By:</label>
                                         <select id="accessories" name="accessories">
                                             <option value=" ">Select Merchant Name</option>
                                             <option value="SUDIPTA BISWAS">SUDIPTA BISWAS</option>
                                             <option value="APURWA KUMAR">APURWA KUMAR</option>
                                             <option value="RESHMI SHIL">RESHMI SHIL</option>
                                             <option value="AHIRTAVIYAS PAL">AHIRTAVIYAS PAL</option>
-                                            <option value="SOMNATH MUKHERJEE">SOMNATH MUKHERJEE</option>
-                                
+                                            <option value="SOMNATH MUKHERJEE">SOMNATH MUKHERJEE</option>  
+                                            <option value="PRANTIK DUTTA">PRANTIK DUTTA</option>
+                                            <option value="ABHIJEET SEAL">ABHIJEET SEAL</option>
+                                            
+
                                         </select>
                                     </div>
                                 </div>
-                                
+
                                 <div>
                                     <div class="pImage">
                                         <a href="https://forms.gle/kkhpemZu2pr7RPq66" target="_blank">Product Image</a>
@@ -349,20 +354,20 @@
 
                                 <div>
                                     <div class="image">
-                                        <a href="https://forms.gle/iECxKSMPGaSQcUZh9" target="_blank">Pacing Image</a>
-        
+                                        <a href="https://forms.gle/iECxKSMPGaSQcUZh9" target="_blank">Packing Image</a>
+
                                     </div>
                                 </div>
-                                
-                            
+
+
 
                         </div>
 
-                        
+
 
                 </div>
 
-                
+
                 <label for="packingInstruction">Packing Instruction:</label>
                 <input type="text" id="packingInstruction" name="packingInstruction">
 
@@ -379,13 +384,13 @@
             </form>
         </div>    
       <div><button>Add more Style</button></div>
-      
+
       <script>
         document.getElementById("myForm").addEventListener("submit", function(event) {
           event.preventDefault();
           sendData();
         });
-      
+
         function sendData() {
           var form = document.getElementById("myForm");
           var formData = new FormData(form);
@@ -401,6 +406,3 @@
         }
       </script></body>
 </html>
-<!--new https://script.google.com/macros/s/AKfycbyFNVGigbIKccNgvvCye8_jI5o1zTGG2ZnjPTV30bNovAPdy_LW3Cq3ZL3BxxX_xnpp/exec -->
-
-<!-- https://script.google.com/macros/s/AKfycbz2mMhpWfNjqRtEQGm2U39QN76kyn9jbSxgmOqrR1WrPHqz8Eih9z0C6NjooEYTY3kN/exec -->
