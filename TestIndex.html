@@ -95,7 +95,7 @@
 }
 .length{
     position: relative;
-    right: 120px; 
+    right: 20px; 
 }
 .embossing{
     position: relative;
@@ -111,7 +111,7 @@
 }
 .targetdate{
     position: relative;
-    right: 55px;
+    left: 50px;
 }
 /* .accessories{
     position: relative;
@@ -203,6 +203,8 @@
 
 
         }
+        /* multipal drop doen */
+       
 </style>
 </head>
 <body>
@@ -233,7 +235,52 @@
                         </div>
                         <div>
                             <label for="packingMaterial">Customer Code:</label>
-                            <input type="text" id="packingMaterial" name="packingMaterial">            
+                            <!-- <input type="text" id="packingMaterial" name="packingMaterial"> -->
+                            <select id="packingMaterial" name="packingMaterial">
+                                <option value=" ">Select Customer Code</option>
+                                <option value="6101">6101</option>
+                                <option value="6102">6102</option>
+                                <option value="3301">3301</option>
+                                <option value="3302">3302</option>
+                                <option value="9101">9101</option>
+                                <option value="9101-LW">9101-LW</option>
+                                <option value="9101-ZD">9101-ZD</option>
+                                <option value="9102">9102</option>
+                                <option value="9103">9103</option>
+                                <option value="9104">9104</option>
+                                <option value="9105">9105</option>
+                                <option value="9106">9106</option>
+                                <option value="3901">3901</option>
+                                <option value="3902">3902</option>
+                                <option value="3903">3903</option>
+                                <option value="8101">8101</option>
+                                <option value="8102">8102</option>
+                                <option value="8103">8103</option>
+                                <option value="8104">8104</option>
+                                <option value="8105">8105</option>
+                                <option value="8106">8106</option>
+                                <option value="6001">6001</option>
+                                <option value="3401">3401</option>
+                                <option value="3402">3402</option>
+                                <option value="3403">3403</option>
+                                <option value="3404">3404</option>
+                                <option value="4401">4401</option>
+                                <option value="4402">4402</option>
+                                <option value="4403">4403</option>
+                                <option value="0101">0101</option>
+                                <option value="0102">0102</option>
+                                <option value="0103">0103</option>
+                                <option value="38501">38501</option>
+                                <option value="4801">4801</option>
+                                <option value="4901">4901</option>
+                                <option value="4902">4902</option>
+                                <option value="3101">3101</option>
+                                <option value="3102">3102</option>
+                                <option value="35101">35101</option>
+                                <option value="35102">35102</option>
+                                <option value="35103">35103</option>
+
+                            </select>            
 
                         </div>
                          <div>
@@ -254,10 +301,146 @@
                             <input type="text" id="hardwareColor" name="hardwareColor" required>
                         </div>
 
-                        <div>
+                        <div class="leatherColor">
                             <label for="leatherColor">Leather:</label>
+                            <select id="leatherColor" name="leatherColor">
+                                    <option value=" ">Select Merchant Name</option>
+                                    <option value="COW DANIEL">COW DANIEL</option>
+                                    <option value="COW LW 677">COW LW 677</option>
+                                    <option value="COW COW VINTAGE">COW COW VINTAGE</option>
+                                    <option value="COW COW CREATA">COW COW CREATA</option>
+                                    <option value="COW OPU">COW OPU</option>
+                                    <option value="BUFF KATTA KATTA BRONCO">BUFF KATTA KATTA BRONCO</option>
+                                    <option value="BUFF KATTA KATTA SAND HUNTER">BUFF KATTA KATTA SAND HUNTER</option>
+                                    <option value="BUFF KATTA RUSTIK">BUFF KATTA RUSTIK</option>
+                                    <option value="COW KH HAIR-ON">COW KH HAIR-ON</option>
+                                    <option value="COW VEG TANNED">COW VEG TANNED</option>
+                                    <option value="COW COW GOAT PRINT">COW COW GOAT PRINT</option>
+                                    <option value="COW COW BURNISH">COW COW BURNISH</option>
+                                    <option value="COW KH NAPPA - BUYER'S LEATHER">COW KH NAPPA - BUYER'S LEATHER</option>
+                                    <option value="COW KH HANDTOOL">COW KH HANDTOOL</option>
+                                    <option value="BUFF KATTA KATTA PDM">BUFF KATTA KATTA PDM</option>
+                                    <option value="COW WAXY">COW WAXY</option>
+                                    <option value="COW LIVIA">COW LIVIA</option>
+                                    <option value="COW CUT CROCO">COW CUT CROCO</option>
+                                    <option value="COW LEATHER">COW LEATHER</option>
+                                    <option value="COW FINISHED LEATHER">COW FINISHED LEATHER</option>
+                                    <option value="COW COW VEG TANNED">COW COW VEG TANNED</option>
+                                    <option value="COW SUEDE">COW SUEDE</option>
+                                    <option value="COW OPU">COW OPU</option>
+                                    <option value="COW COW PDM">COW COW PDM</option>
+                                    <option value="COW RD WAXY">COW RD WAXY</option>
+                                    <option value="COW RIVER">COW RIVER</option>
+                                    <option value="COW WOOD PRINT">COW WOOD PRINT</option>
+                                    <option value="SHEEP WAXY">SHEEP WAXY</option>
+                                    <option value="COW BB TUMBLE">COW BB TUMBLE</option>
+                                    <option value="BUFF SHRUNKEN OILY">BUFF SHRUNKEN OILY</option>
+                                    <option value="BUFF KATTA CRACKLE - LW">BUFF KATTA CRACKLE - LW</option>
+                                    <option value="COW DANIEL">COW DANIEL</option>
+                                    <option value="BUFF WAXY">BUFF WAXY</option>
+                                    <option value="BUFF KATTA BRONCO">BUFF KATTA BRONCO</option>
+                                    <option value="COW JP FLOATER">COW JP FLOATER</option>
+                                    <option value="COW HONEY FLORAL EMBOSSED - MERCURI">COW HONEY FLORAL EMBOSSED - MERCURI</option>
+                                    <option value="COW Aniline">COW Aniline</option>
+                                    <option value="RE-FINISH COW NAPPA">RE-FINISH COW NAPPA</option>
+                                    <option value="BUFF KH EMBOSSED LEATHER - BUYER">BUFF KH EMBOSSED LEATHER - BUYER</option>
+                                    <option value="RE-FINISH LEOPARD PRINT">RE-FINISH LEOPARD PRINT</option>
+                                    <option value="BUFF SEAWEED">BUFF SEAWEED</option>
+                                    <option value="COW OILY WASH">COW OILY WASH</option>
+                                    <option value="COW OILY WASH">COW OILY WASH</option>
+                                    <option value="COW WOOD PRINT">COW WOOD PRINT</option>
+                                    <option value="COW OPU">COW OPU</option>
+                                    <option value="COW LIVIA">COW LIVIA</option>
+                                    <option value="CANVAS WHITE CANVAS">CANVAS WHITE CANVAS</option>
+                                    <option value="CANVAS BLACK CANVAS">CANVAS BLACK CANVAS</option>
+                                    <option value="PU PU">PU PU</option>
+                                    <option value="COW SOFT LEATHER (MERCURI)">COW SOFT LEATHER (MERCURI)</option>
+                                    <option value="BUFF FRANZY">BUFF FRANZY</option>
+                                    <option value="COW ETSY">COW ETSY</option>
+                                    <option value="COW NEW RHINO">COW NEW RHINO</option>
+                                    <option value="GOAT OPU">GOAT OPU</option>
+                                    <option value="BUFF SHRUNKEN">BUFF SHRUNKEN</option>
+                                    <option value="COW SL NAPPA">COW SL NAPPA</option>
+                                    <option value="COW VACHETTA (HC)">COW VACHETTA (HC)</option>
+                                    <option value="BUFF WAXY PRINT">BUFF WAXY PRINT</option>
+                                    <option value="GOAT ANILINE">GOAT ANILINE</option>
+                                    <option value="COW CRUST NATURAL">COW CRUST NATURAL</option>
+                                    <option value="BUFF TRUMBLED">BUFF TRUMBLED</option>
+                                    <option value="COW BURNISH PDM">COW BURNISH PDM</option>
+                                    <option value="COW DM WAXY">COW DM WAXY</option>
+                                    <option value="SHEEP NAPPA">SHEEP NAPPA</option>
+                                    <option value="COW SFL VT PLAIN">COW SFL VT PLAIN</option>
+                                    <option value="BUFF KATTA ANILINE">BUFF KATTA ANILINE</option>
+                                    <option value="COW ANILINE">COW ANILINE</option>
+                                    <option value="BUFF KATTA BRONCO">BUFF KATTA BRONCO</option>
+                                    <option value="COW HIGH VEG TH">COW HIGH VEG TH</option>
+                                    <option value="BUFF OPU">BUFF OPU</option>
+                                    <option value="COW COW CG">COW COW CG</option>
+                                    <option value="COW CREATA">COW CREATA</option>
+                                    <option value="COW RHINO">COW RHINO</option>
+                                    <option value="COW SURF">COW SURF</option>
+                                    <option value="SHEEP WR NAPPA">SHEEP WR NAPPA</option>
+                                    <option value="COW CROCO SURF">COW CROCO SURF</option>
+                                    <option value="COW TH MILLED PRINT">COW TH MILLED PRINT</option>
+                                    <option value="COW TH NAPPA PRINT">COW TH NAPPA PRINT</option>
+                                    <option value="COW THICK HAIRCELL PRINT">COW THICK HAIRCELL PRINT</option>
+                                    <option value="COW TH SYDNEY">COW TH SYDNEY</option>
+                                    <option value="COW TUSCAN">COW TUSCAN</option>
+                                    <option value="BUFF WAXY">BUFF WAXY</option>
+                                    <option value="COW CREATA HG-GH">COW CREATA HG-GH</option>
+                                    <option value="COW CROCO PULLL UP">COW CROCO PULLL UP</option>
+                                    <option value="COW FIBRE TRUMBLED">COW FIBRE TRUMBLED</option>
+                                    <option value="COW FLOATER">COW FLOATER</option>
+                                    <option value="COW FOIL PRINT">COW FOIL PRINT</option>
+                                    <option value="COW GRENOBLE PDM">COW GRENOBLE PDM</option>
+                                    <option value="COW HUNTER (HIGH VEG)">COW HUNTER (HIGH VEG)</option>
+                                    <option value="COW HUNTER (SEMI VEG)">COW HUNTER (SEMI VEG)</option>
+                                    <option value="COW HUNTER (WASHABLE)">COW HUNTER (WASHABLE)</option>
+                                    <option value="BUFF HUNTER KH">BUFF HUNTER KH</option>
+                                    <option value="COW JP FLOATER">COW JP FLOATER</option>
+                                    <option value="SHEEP LG NAPPA">SHEEP LG NAPPA</option>
+                                    <option value="GOAT LG NAPPA">GOAT LG NAPPA</option>
+                                    <option value="COW OPU MAT (OSL)">COW OPU MAT (OSL)</option>
+                                    <option value="GOAT PDM">GOAT PDM</option>
+                                    <option value="COW SAFFIANO">COW SAFFIANO</option>
+                                    <option value="COW SFL VT MILLED">COW SFL VT MILLED</option>
+                                    <option value="GOAT SOFTY">GOAT SOFTY</option>
+                                    <option value="COW GOAT PRINT">COW GOAT PRINT</option>
+                                    <option value="COW FRENZY PRINT">COW FRENZY PRINT</option>
+                                    <option value="COW VACHETTA (MILLED)">COW VACHETTA (MILLED)</option>
+                                    <option value="COW VT KC">COW VT KC</option>
+                                    <option value="BUFF BELTING HUNTER">BUFF BELTING HUNTER</option>
+                                    <option value="COW CROCO EMBOSS (SMALL+BIG)">COW CROCO EMBOSS (SMALL+BIG)</option>
+                                    <option value="COW FOIL NAPPA">COW FOIL NAPPA</option>
+                                    <option value="COW G.NAPPA">COW G.NAPPA</option>
+                                    <option value="COW LIVIA">COW LIVIA</option>
+                                    <option value="COW MARKY">COW MARKY</option>
+                                    <option value="GOAT NAPPA">GOAT NAPPA</option>
+                                    <option value="BUFF NATURAL MILLED">BUFF NATURAL MILLED</option>
+                                    <option value="COW OILY WASH (NEW)">COW OILY WASH (NEW)</option>
+                                    <option value="COW OPU (RR)">COW OPU (RR)</option>
+                                    <option value="COW OPU GRANITE">COW OPU GRANITE</option>
+                                    <option value="COW PRINTED MILLED (R&D)">COW PRINTED MILLED (R&D)</option>
+                                    <option value="GOAT SHRUNKEN">GOAT SHRUNKEN</option>
+                                    <option value="BUFF SHRUNKEN OILY">BUFF SHRUNKEN OILY</option>
+                                    <option value="COW TH RHINO">COW TH RHINO</option>
+                                    <option value="COW VINTAGE BB">COW VINTAGE BB</option>
+                                    <option value="COW VINTAGE TH">COW VINTAGE TH</option>
+                                    <option value="COW VT PULL UP">COW VT PULL UP</option>
+                                    <option value="COW LILAC PRINT">COW LILAC PRINT</option>
+                                    <option value="COW WR NAPPA OG">COW WR NAPPA OG</option>
+                                    <option value="COW WR NAPPA NEW">COW WR NAPPA NEW</option>
+                                    <option value="SHEEP GARMENTS NAPPA">SHEEP GARMENTS NAPPA</option>
+                                    <option value="RE-FINISH STOCK (AS IS)">RE-FINISH STOCK (AS IS)</option>
+                                    <option value="RE-FINISH PRINTED">RE-FINISH PRINTED</option>
+                                    <option value="RE-FINISH PLAIN">RE-FINISH PLAIN</option>
+                                    <option value="RE-FINISH MILLD">RE-FINISH MILLD</option>
+                                    <option value="COW TUMBLE">COW TUMBLE</option>
+                             
+                            </select>
                             <!-- <input type="text" id="leatherColor" name="leatherColor" required> -->
-                            <textarea id="leatherColor" name="leatherColor" required style="border-radius: 4px;"></textarea>
+
+                            <!-- <textarea id="leatherColor" name="leatherColor" required style="border-radius: 4px;"></textarea> -->
 
                         </div>
                         <div>
@@ -277,7 +460,54 @@
 
                         <div>
                             <label for="lining" class="lining">Lining:</label>
-                            <input type="text" class="lining" name="lining" required>
+                            <select id="lining" name="lining">
+                                <option value="">Select Merchant Name</option>
+                                <option value="POLYDRILL 10.5 KG">POLYDRILL 10.5 KG</option>
+                                <option value="POLYDRILL 11 KG">POLYDRILL 11 KG</option>
+                                <option value="POLYDRILL 13 KG">POLYDRILL 13 KG</option>
+                                <option value="POLYDRILL 14 KG">POLYDRILL 14 KG</option>
+                                <option value="TAFETTA MATIZ">TAFETTA MATIZ</option>
+                                <option value="TAFETTA PILOT">TAFETTA PILOT</option>
+                                <option value="TAFETTA SUPER TOP">TAFETTA SUPER TOP</option>
+                                <option value="COTTON SHEETING">COTTON SHEETING</option>
+                                <option value="COTTON DRILL">COTTON DRILL</option>
+                                <option value="COTTON TWILL">COTTON TWILL</option>
+                                <option value="CANVAS 12 OUNCE">CANVAS 12 OUNCE</option>
+                                <option value="CANVAS 14 OUNCE">CANVAS 14 OUNCE</option>
+                                <option value="CANVAS 16 OUNCE">CANVAS 16 OUNCE</option>
+                                <option value="CANVAS 18 OUNCE">CANVAS 18 OUNCE</option>
+                                <option value="CANVAS 22 OUNCE">CANVAS 22 OUNCE</option>
+                                <option value="CANVAS 24 OUNCE">CANVAS 24 OUNCE</option>
+                                <option value="CHECK BLUE POLYESTER">CHECK BLUE POLYESTER</option>
+                                <option value="CHECK RED POLYESTER">CHECK RED POLYESTER</option>
+                                <option value="ZIGZAG POLYESTER">ZIGZAG POLYESTER</option>
+                                <option value="PRINTED POLYESTER">PRINTED POLYESTER</option>
+                                <option value="VELVET ONE SIDE">VELVET ONE SIDE</option>
+                                <option value="VELVET TWO SIDE">VELVET TWO SIDE</option>
+                                <option value="PARACHUTE STANDARD">PARACHUTE STANDARD</option>
+                                <option value="MARKING THIN">MARKING THIN</option>
+                                <option value="MARKING THICK">MARKING THICK</option>
+                                <option value="POLY COTTON PRINTED (GREEN BURRY)">POLY COTTON PRINTED (GREEN BURRY)</option>
+                                <option value="LW VELVET WIDTH - 54&quot;">LW VELVET WIDTH - 54"</option>
+                                <option value="FRAME CASTED DM (25X16)MM B-ANTIQUE">FRAME CASTED DM (25X16)MM B-ANTIQUE</option>
+                                <option value="FRAME CASTED DM (25X16)MM GUN">FRAME CASTED DM (25X16)MM GUN</option>
+                                <option value="LOGO LETTER DM (25X12)MM GUN">LOGO LETTER DM (25X12)MM GUN</option>
+                                <option value="LOGO LETTER DM (25X12)MM B-ANTIQUE">LOGO LETTER DM (25X12)MM B-ANTIQUE</option>
+                                <option value="MAGNETIC SNAP (14X2)MM B-ANTIQUE">MAGNETIC SNAP (14X2)MM B-ANTIQUE</option>
+                                <option value="MAGNETIC SNAP (14X2)MM GUN">MAGNETIC SNAP (14X2)MM GUN</option>
+                                <option value="MAGNET HIDDEN (18X3)MM RAW">MAGNET HIDDEN (18X3)MM RAW</option>
+                                <option value="RIVET CAP (6X6)MM B-ANTIQUE">RIVET CAP (6X6)MM B-ANTIQUE</option>
+                                <option value="RIVET CAP (6X6)MM GUN">RIVET CAP (6X6)MM GUN</option>
+                                <option value="RIVET CAP (5X5)MM B-ANTIQUE">RIVET CAP (5X5)MM B-ANTIQUE</option>
+                                <option value="RIVET CAP (5X5)MM GUN">RIVET CAP (5X5)MM GUN</option>
+                                <option value="LINING DM ZIG ZAG - 58&quot; - GREY">LINING DM ZIG ZAG - 58" - GREY</option>
+                                <option value="LINING TAFETTA - 42&quot; - BEIGE">LINING TAFETTA - 42" - BEIGE</option>
+                                <option value="LINING CAMBRAY 44&quot; DENIM">LINING CAMBRAY 44" DENIM</option>
+
+                                
+
+                            </select>
+                            <!-- <input type="text" class="lining" name="lining" required> -->
                         </div>
                         <div>
                             <label for="embossing" class="embossing">Embossing:</label>
@@ -404,5 +634,13 @@
           xhr.open("POST", "https://script.google.com/macros/s/AKfycbyFNVGigbIKccNgvvCye8_jI5o1zTGG2ZnjPTV30bNovAPdy_LW3Cq3ZL3BxxX_xnpp/exec");
           xhr.send(formData);
         }
-      </script></body>
+
+
+        
+      </script>
+
+
+    
+      
+      </body>
 </html>
