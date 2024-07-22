@@ -99,7 +99,7 @@
 }
 .embossing{
     position: relative;
-    right: 175px;
+    right: 5px;
 }
 .height{
     position: relative;
@@ -229,9 +229,8 @@
 
                         </div>
                         <div>
-                            <label for="udin">UIDN:</label>
-                            <input type="text" id="workOrderNumber" name="udin">
-
+                            <label for="lumensStyleNumber">Lumens Style Number:</label>
+                            <input type="text" id="lumensStyleNumber" name="lumensStyleNumber" required>
                         </div>
 
                     </div>
@@ -290,9 +289,10 @@
                             </select>            
 
                         </div>
-                         <div>
-                            <label for="lumensStyleNumber">Lumens Style Number:</label>
-                            <input type="text" id="lumensStyleNumber" name="lumensStyleNumber" required>
+                        <div>
+                            <label for="udin">UIDN:</label>
+                            <input type="text" id="workOrderNumber" name="udin">
+
                         </div>
 
 
@@ -964,14 +964,21 @@
                             <input type="text" class="embossing" name="embossing" required>
                         </div>
                         <div>
-                            <div class="image">
-                                <a href="https://forms.gle/BWqmfwPGYs7ScapU6" target="_blank">Embossing Image</a>
-                            </div>
+                            <label for="color" class="color">Color:</label>
+                            <input type="text" class="color" name="color" required>
                         </div>
 
                         <div>
-                            <div class="Limage">
-                                <a href="https://forms.gle/BWqmfwPGYs7ScapU6" target="_blank" >Lining Image</a>
+                            <div >
+                                <label for="price" class="price">Price Range:</label>
+                                <select id="price" name="price">
+                                    <option value=" ">Select Price Range</option>
+                                    <option value="High Range">High Range</option>
+                                    <option value="Medium Range">Medium Range</option>
+                                    <option value="Low Range">Low Range </option>
+                                    
+
+                                </select>
                             </div>
                         </div>
 
@@ -1025,21 +1032,6 @@
                                         </select>
                                     </div>
                                 </div>
-
-                                <div>
-                                    <div class="pImage">
-                                        <a href="https://forms.gle/kkhpemZu2pr7RPq66" target="_blank">Product Image</a>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="image">
-                                        <a href="https://forms.gle/iECxKSMPGaSQcUZh9" target="_blank">Packing Image</a>
-
-                                    </div>
-                                </div>
-
-
 
                         </div>
 
