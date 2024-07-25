@@ -52,7 +52,7 @@
     background-color: #f4f7f8;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 1em;
 }
 .line_four{
@@ -95,7 +95,7 @@
 }
 .length{
     position: relative;
-    right: 20px; 
+    /* right: 20px;  */
 }
 .embossing{
     position: relative;
@@ -103,15 +103,19 @@
 }
 .height{
     position: relative;
-    right: 150px;
+    right: -20px;
 }
 .width{
     position: relative;
-    right: 150px;
+    /* right: 150px; */
 }
 .targetdate{
     position: relative;
     left: 50px;
+}
+.ziperr{
+    position: relative;
+    left: 100px;
 }
 /* .accessories{
     position: relative;
@@ -881,16 +885,404 @@
 
 
 
+            <div class="line_two" id="lining1">
+                <div class="lining1">
+                    <label for="lining1">Lining 1:</label>
+                    <select id="lining1" name="lining1">
+                            <option value=" ">Select Lining Name</option>
+                            <option value="LINING VELVET 230 GSM 54&quot; MAROON">LINING VELVET 230 GSM 54" MAROON</option>
+                            <option value="LINING VELVET 230 GSM 54&quot; MAROON">LINING VELVET 230 GSM 54" MAROON</option>
+                            <option value="LINING VELVET SYNTHENTIC 52&quot; BLK">LINING VELVET SYNTHENTIC 52" BLK</option>
+                            <option value="LINING CANVAS 12 OZ 56&quot; BLACK">LINING CANVAS 12 OZ 56" BLACK</option>
+                            <option value="LINING CANVAS 14 OZ 56&quot; BLACK">LINING CANVAS 14 OZ 56" BLACK</option>
+                            <option value="LINING CANVAS 15 OZ 56&quot; BLACK">LINING CANVAS 15 OZ 56" BLACK</option>
+                            <option value="LINING POLYCOT 13KG 44&quot; BLACK">LINING POLYCOT 13KG 44" BLACK</option>
+                            <option value="LINING DM ZIG ZAG 58&quot; GREY">LINING DM ZIG ZAG 58" GREY</option>
+                            <option value="LINING MARKINCLOTH THIN 42&quot; NATURAL">LINING MARKINCLOTH THIN 42" NATURAL</option>
+                            <option value="LINING MARKINCLOTH THICK 42&quot; NATURAL">LINING MARKINCLOTH THICK 42" NATURAL</option>
+                            <option value="LINING NYLON MESH 58&quot; BLACK">LINING NYLON MESH 58" BLACK</option>
+                            <option value="LINING NYLON MESH 58&quot; BROWN">LINING NYLON MESH 58" BROWN</option>
+                            <option value="LINING SPACER MESH 56&quot; BLACK">LINING SPACER MESH 56" BLACK</option>
+                            <option value="LINING POLYSTER 60S MESH 54&quot; BLACK">LINING POLYSTER 60S MESH 54" BLACK</option>
+                            <option value="LINING OSL JECQUARD 44&quot; BLACK">LINING OSL JECQUARD 44" BLACK</option>
+                            <option value="LINING OSL JECQUARD 44&quot; BROWN">LINING OSL JECQUARD 44" BROWN</option>
+                            <option value="LINING OSL JECQUARD 44&quot; BEIGE">LINING OSL JECQUARD 44" BEIGE</option>
+                            <option value="LINING BB CHECK TWILL HEAVY 4/1 44&quot;MULT">LINING BB CHECK TWILL HEAVY 4/1 44"MULT</option>
+                            <option value="LINING BB CHECK TARTAN 35&quot;MULTI">LINING BB CHECK TARTAN 35"MULTI</option>
+                            <option value="LINING TAFETTA 42&quot; BLACK">LINING TAFETTA 42" BLACK</option>
+                            <option value="LINING TAFETTA 42&quot; WHITE">LINING TAFETTA 42" WHITE</option>
+                            <option value="LINING TAFETTA 42&quot; COGNAC">LINING TAFETTA 42" COGNAC</option>
+                            <option value="LINING TAFETTA 42&quot; ORANGE">LINING TAFETTA 42" ORANGE</option>
+                            <option value="LINING TAFETTA 42&quot; MUSTARD">LINING TAFETTA 42" MUSTARD</option>
+                            <option value="LINING TAFETTA 42&quot; KHAKI">LINING TAFETTA 42" KHAKI</option>
+                            <option value="LINING TAFETTA 42&quot; OLIVE">LINING TAFETTA 42" OLIVE</option>
+                            <option value="LINING TAFETTA 42&quot; GREEN">LINING TAFETTA 42" GREEN</option>
+                            <option value="LINING TAFETTA 42&quot; D.GREEN">LINING TAFETTA 42" D.GREEN</option>
+                            <option value="LINING TAFETTA 42&quot; TURQUISE">LINING TAFETTA 42" TURQUISE</option>
+                            <option value="LINING TAFETTA 42&quot; SKY BLUE">LINING TAFETTA 42" SKY BLUE</option>
+                            <option value="LINING TAFETTA 42&quot; NAVY">LINING TAFETTA 42" NAVY</option>
+                            <option value="LINING TAFETTA 42&quot; D.NAYY">LINING TAFETTA 42" D.NAYY</option>
+                            <option value="LINING TAFETTA 42&quot; BLUE">LINING TAFETTA 42" BLUE</option>
+                            <option value="LINING TAFETTA 42&quot; PINK">LINING TAFETTA 42" PINK</option>
+                            <option value="LINING TAFETTA 42&quot; BORDO">LINING TAFETTA 42" BORDO</option>
+                            <option value="LINING TAFETTA 42&quot; RED">LINING TAFETTA 42" RED</option>
+                            <option value="LINING TAFETTA 42&quot; D.RED">LINING TAFETTA 42" D.RED</option>
+                            <option value="LINING TAFETTA 42&quot; TAN">LINING TAFETTA 42" TAN</option>
+                            <option value="LINING TAFETTA 42&quot; D.TAN">LINING TAFETTA 42" D.TAN</option>
+                            <option value="LINING TAFETTA 42&quot; BROWN">LINING TAFETTA 42" BROWN</option>
+                            <option value="LINING TAFETTA 42&quot; D.BROWN">LINING TAFETTA 42" D.BROWN</option>
+                            <option value="LINING TAFETTA 42&quot; SAX BLUE">LINING TAFETTA 42" SAX BLUE</option>
+                            <option value="LINING TAFETTA 42&quot; VIOLET">LINING TAFETTA 42" VIOLET</option>
+                            <option value="LINING TAFETTA 42&quot; GREY">LINING TAFETTA 42" GREY</option>
+                            <option value="LINING TAFETTA 42&quot; BEIGE">LINING TAFETTA 42" BEIGE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BLACK">LINING POLYDRILL 12KG 46" BLACK</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; WHITE">LINING POLYDRILL 12KG 46" WHITE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; COGNAC">LINING POLYDRILL 12KG 46" COGNAC</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; ORANGE">LINING POLYDRILL 12KG 46" ORANGE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; MUSTARD">LINING POLYDRILL 12KG 46" MUSTARD</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; KHAKI">LINING POLYDRILL 12KG 46" KHAKI</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; OLIVE">LINING POLYDRILL 12KG 46" OLIVE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; GREEN">LINING POLYDRILL 12KG 46" GREEN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.GREEN">LINING POLYDRILL 12KG 46" D.GREEN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; TURQUISE">LINING POLYDRILL 12KG 46" TURQUISE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; SKY BLUE">LINING POLYDRILL 12KG 46" SKY BLUE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; NAVY">LINING POLYDRILL 12KG 46" NAVY</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.NAYY">LINING POLYDRILL 12KG 46" D.NAYY</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BLUE">LINING POLYDRILL 12KG 46" BLUE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; PINK">LINING POLYDRILL 12KG 46" PINK</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BORDO">LINING POLYDRILL 12KG 46" BORDO</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; RED">LINING POLYDRILL 12KG 46" RED</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.RED">LINING POLYDRILL 12KG 46" D.RED</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; TAN">LINING POLYDRILL 12KG 46" TAN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.TAN">LINING POLYDRILL 12KG 46" D.TAN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BROWN">LINING POLYDRILL 12KG 46" BROWN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.BROWN">LINING POLYDRILL 12KG 46" D.BROWN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; SAX BLUE">LINING POLYDRILL 12KG 46" SAX BLUE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; VIOLET">LINING POLYDRILL 12KG 46" VIOLET</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; GREY">LINING POLYDRILL 12KG 46" GREY</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BEIGE">LINING POLYDRILL 12KG 46" BEIGE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BLACK">LINING POLYDRILL 13KG 46" BLACK</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; WHITE">LINING POLYDRILL 13KG 46" WHITE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; COGNAC">LINING POLYDRILL 13KG 46" COGNAC</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; ORANGE">LINING POLYDRILL 13KG 46" ORANGE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; MUSTARD">LINING POLYDRILL 13KG 46" MUSTARD</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; KHAKI">LINING POLYDRILL 13KG 46" KHAKI</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; OLIVE">LINING POLYDRILL 13KG 46" OLIVE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; GREEN">LINING POLYDRILL 13KG 46" GREEN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.GREEN">LINING POLYDRILL 13KG 46" D.GREEN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; TURQUISE">LINING POLYDRILL 13KG 46" TURQUISE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; SKY BLUE">LINING POLYDRILL 13KG 46" SKY BLUE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; NAVY">LINING POLYDRILL 13KG 46" NAVY</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.NAYY">LINING POLYDRILL 13KG 46" D.NAYY</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BLUE">LINING POLYDRILL 13KG 46" BLUE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; PINK">LINING POLYDRILL 13KG 46" PINK</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BORDO">LINING POLYDRILL 13KG 46" BORDO</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; RED">LINING POLYDRILL 13KG 46" RED</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.RED">LINING POLYDRILL 13KG 46" D.RED</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; TAN">LINING POLYDRILL 13KG 46" TAN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.TAN">LINING POLYDRILL 13KG 46" D.TAN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BROWN">LINING POLYDRILL 13KG 46" BROWN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.BROWN">LINING POLYDRILL 13KG 46" D.BROWN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; SAX BLUE">LINING POLYDRILL 13KG 46" SAX BLUE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; VIOLET">LINING POLYDRILL 13KG 46" VIOLET</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; GREY">LINING POLYDRILL 13KG 46" GREY</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BEIGE">LINING POLYDRILL 13KG 46" BEIGE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BLACK">LINING POLYDRILL 14 KG 46" BLACK</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; WHITE">LINING POLYDRILL 14 KG 46" WHITE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; COGNAC">LINING POLYDRILL 14 KG 46" COGNAC</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; ORANGE">LINING POLYDRILL 14 KG 46" ORANGE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; MUSTARD">LINING POLYDRILL 14 KG 46" MUSTARD</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; KHAKI">LINING POLYDRILL 14 KG 46" KHAKI</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; OLIVE">LINING POLYDRILL 14 KG 46" OLIVE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; GREEN">LINING POLYDRILL 14 KG 46" GREEN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.GREEN">LINING POLYDRILL 14 KG 46" D.GREEN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; TURQUISE">LINING POLYDRILL 14 KG 46" TURQUISE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; SKY BLUE">LINING POLYDRILL 14 KG 46" SKY BLUE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; NAVY">LINING POLYDRILL 14 KG 46" NAVY</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.NAYY">LINING POLYDRILL 14 KG 46" D.NAYY</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BLUE">LINING POLYDRILL 14 KG 46" BLUE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; PINK">LINING POLYDRILL 14 KG 46" PINK</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BORDO">LINING POLYDRILL 14 KG 46" BORDO</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; RED">LINING POLYDRILL 14 KG 46" RED</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.RED">LINING POLYDRILL 14 KG 46" D.RED</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; TAN">LINING POLYDRILL 14 KG 46" TAN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.TAN">LINING POLYDRILL 14 KG 46" D.TAN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BROWN">LINING POLYDRILL 14 KG 46" BROWN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.BROWN">LINING POLYDRILL 14 KG 46" D.BROWN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; SAX BLUE">LINING POLYDRILL 14 KG 46" SAX BLUE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; VIOLET">LINING POLYDRILL 14 KG 46" VIOLET</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; GREY">LINING POLYDRILL 14 KG 46" GREY</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BEIGE">LINING POLYDRILL 14 KG 46" BEIGE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BLACK">LINING COTTONDRILL 12KG 56" BLACK</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; WHITE">LINING COTTONDRILL 12KG 56" WHITE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; COGNAC">LINING COTTONDRILL 12KG 56" COGNAC</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; ORANGE">LINING COTTONDRILL 12KG 56" ORANGE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; MUSTARD">LINING COTTONDRILL 12KG 56" MUSTARD</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; KHAKI">LINING COTTONDRILL 12KG 56" KHAKI</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; OLIVE">LINING COTTONDRILL 12KG 56" OLIVE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; GREEN">LINING COTTONDRILL 12KG 56" GREEN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.GREEN">LINING COTTONDRILL 12KG 56" D.GREEN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; TURQUISE">LINING COTTONDRILL 12KG 56" TURQUISE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; SKY BLUE">LINING COTTONDRILL 12KG 56" SKY BLUE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; NAVY">LINING COTTONDRILL 12KG 56" NAVY</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.NAYY">LINING COTTONDRILL 12KG 56" D.NAYY</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BLUE">LINING COTTONDRILL 12KG 56" BLUE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; PINK">LINING COTTONDRILL 12KG 56" PINK</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BORDO">LINING COTTONDRILL 12KG 56" BORDO</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; RED">LINING COTTONDRILL 12KG 56" RED</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.RED">LINING COTTONDRILL 12KG 56" D.RED</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; TAN">LINING COTTONDRILL 12KG 56" TAN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.TAN">LINING COTTONDRILL 12KG 56" D.TAN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BROWN">LINING COTTONDRILL 12KG 56" BROWN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.BROWN">LINING COTTONDRILL 12KG 56" D.BROWN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; SAX BLUE">LINING COTTONDRILL 12KG 56" SAX BLUE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; VIOLET">LINING COTTONDRILL 12KG 56" VIOLET</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; GREY">LINING COTTONDRILL 12KG 56" GREY</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BEIGE">LINING COTTONDRILL 12KG 56" BEIGE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BLACK">LINING COTTONDRILL 14KG 56" BLACK</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; WHITE">LINING COTTONDRILL 14KG 56" WHITE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; COGNAC">LINING COTTONDRILL 14KG 56" COGNAC</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; ORANGE">LINING COTTONDRILL 14KG 56" ORANGE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; MUSTARD">LINING COTTONDRILL 14KG 56" MUSTARD</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; KHAKI">LINING COTTONDRILL 14KG 56" KHAKI</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; OLIVE">LINING COTTONDRILL 14KG 56" OLIVE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; GREEN">LINING COTTONDRILL 14KG 56" GREEN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.GREEN">LINING COTTONDRILL 14KG 56" D.GREEN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; TURQUISE">LINING COTTONDRILL 14KG 56" TURQUISE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; SKY BLUE">LINING COTTONDRILL 14KG 56" SKY BLUE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; NAVY">LINING COTTONDRILL 14KG 56" NAVY</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.NAYY">LINING COTTONDRILL 14KG 56" D.NAYY</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BLUE">LINING COTTONDRILL 14KG 56" BLUE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; PINK">LINING COTTONDRILL 14KG 56" PINK</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BORDO">LINING COTTONDRILL 14KG 56" BORDO</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; RED">LINING COTTONDRILL 14KG 56" RED</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.RED">LINING COTTONDRILL 14KG 56" D.RED</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; TAN">LINING COTTONDRILL 14KG 56" TAN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.TAN">LINING COTTONDRILL 14KG 56" D.TAN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BROWN">LINING COTTONDRILL 14KG 56" BROWN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.BROWN">LINING COTTONDRILL 14KG 56" D.BROWN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; SAX BLUE">LINING COTTONDRILL 14KG 56" SAX BLUE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; VIOLET">LINING COTTONDRILL 14KG 56" VIOLET</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; GREY">LINING COTTONDRILL 14KG 56" GREY</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BEIGE">LINING COTTONDRILL 14KG 56" BEIGE</option>
+
+                     
+                    </select>
+                   
+                    <!-- <input type="text"  class="inside" name="leatherColor" required> -->
+
+                    <!-- <textarea id="leatherColor" name="leatherColor" required style="border-radius: 4px;"></textarea> -->
+
+                </div>
+                <div class="lining2">
+                    <label for="lining2">Lining 2:</label>
+                    <select id="lining2" name="lining2">
+                            <option value=" ">Select Lining Name</option>
+                            <option value="LINING VELVET 230 GSM 54&quot; MAROON">LINING VELVET 230 GSM 54" MAROON</option>
+                            <option value="LINING VELVET 230 GSM 54&quot; MAROON">LINING VELVET 230 GSM 54" MAROON</option>
+                            <option value="LINING VELVET SYNTHENTIC 52&quot; BLK">LINING VELVET SYNTHENTIC 52" BLK</option>
+                            <option value="LINING CANVAS 12 OZ 56&quot; BLACK">LINING CANVAS 12 OZ 56" BLACK</option>
+                            <option value="LINING CANVAS 14 OZ 56&quot; BLACK">LINING CANVAS 14 OZ 56" BLACK</option>
+                            <option value="LINING CANVAS 15 OZ 56&quot; BLACK">LINING CANVAS 15 OZ 56" BLACK</option>
+                            <option value="LINING POLYCOT 13KG 44&quot; BLACK">LINING POLYCOT 13KG 44" BLACK</option>
+                            <option value="LINING DM ZIG ZAG 58&quot; GREY">LINING DM ZIG ZAG 58" GREY</option>
+                            <option value="LINING MARKINCLOTH THIN 42&quot; NATURAL">LINING MARKINCLOTH THIN 42" NATURAL</option>
+                            <option value="LINING MARKINCLOTH THICK 42&quot; NATURAL">LINING MARKINCLOTH THICK 42" NATURAL</option>
+                            <option value="LINING NYLON MESH 58&quot; BLACK">LINING NYLON MESH 58" BLACK</option>
+                            <option value="LINING NYLON MESH 58&quot; BROWN">LINING NYLON MESH 58" BROWN</option>
+                            <option value="LINING SPACER MESH 56&quot; BLACK">LINING SPACER MESH 56" BLACK</option>
+                            <option value="LINING POLYSTER 60S MESH 54&quot; BLACK">LINING POLYSTER 60S MESH 54" BLACK</option>
+                            <option value="LINING OSL JECQUARD 44&quot; BLACK">LINING OSL JECQUARD 44" BLACK</option>
+                            <option value="LINING OSL JECQUARD 44&quot; BROWN">LINING OSL JECQUARD 44" BROWN</option>
+                            <option value="LINING OSL JECQUARD 44&quot; BEIGE">LINING OSL JECQUARD 44" BEIGE</option>
+                            <option value="LINING BB CHECK TWILL HEAVY 4/1 44&quot;MULT">LINING BB CHECK TWILL HEAVY 4/1 44"MULT</option>
+                            <option value="LINING BB CHECK TARTAN 35&quot;MULTI">LINING BB CHECK TARTAN 35"MULTI</option>
+                            <option value="LINING TAFETTA 42&quot; BLACK">LINING TAFETTA 42" BLACK</option>
+                            <option value="LINING TAFETTA 42&quot; WHITE">LINING TAFETTA 42" WHITE</option>
+                            <option value="LINING TAFETTA 42&quot; COGNAC">LINING TAFETTA 42" COGNAC</option>
+                            <option value="LINING TAFETTA 42&quot; ORANGE">LINING TAFETTA 42" ORANGE</option>
+                            <option value="LINING TAFETTA 42&quot; MUSTARD">LINING TAFETTA 42" MUSTARD</option>
+                            <option value="LINING TAFETTA 42&quot; KHAKI">LINING TAFETTA 42" KHAKI</option>
+                            <option value="LINING TAFETTA 42&quot; OLIVE">LINING TAFETTA 42" OLIVE</option>
+                            <option value="LINING TAFETTA 42&quot; GREEN">LINING TAFETTA 42" GREEN</option>
+                            <option value="LINING TAFETTA 42&quot; D.GREEN">LINING TAFETTA 42" D.GREEN</option>
+                            <option value="LINING TAFETTA 42&quot; TURQUISE">LINING TAFETTA 42" TURQUISE</option>
+                            <option value="LINING TAFETTA 42&quot; SKY BLUE">LINING TAFETTA 42" SKY BLUE</option>
+                            <option value="LINING TAFETTA 42&quot; NAVY">LINING TAFETTA 42" NAVY</option>
+                            <option value="LINING TAFETTA 42&quot; D.NAYY">LINING TAFETTA 42" D.NAYY</option>
+                            <option value="LINING TAFETTA 42&quot; BLUE">LINING TAFETTA 42" BLUE</option>
+                            <option value="LINING TAFETTA 42&quot; PINK">LINING TAFETTA 42" PINK</option>
+                            <option value="LINING TAFETTA 42&quot; BORDO">LINING TAFETTA 42" BORDO</option>
+                            <option value="LINING TAFETTA 42&quot; RED">LINING TAFETTA 42" RED</option>
+                            <option value="LINING TAFETTA 42&quot; D.RED">LINING TAFETTA 42" D.RED</option>
+                            <option value="LINING TAFETTA 42&quot; TAN">LINING TAFETTA 42" TAN</option>
+                            <option value="LINING TAFETTA 42&quot; D.TAN">LINING TAFETTA 42" D.TAN</option>
+                            <option value="LINING TAFETTA 42&quot; BROWN">LINING TAFETTA 42" BROWN</option>
+                            <option value="LINING TAFETTA 42&quot; D.BROWN">LINING TAFETTA 42" D.BROWN</option>
+                            <option value="LINING TAFETTA 42&quot; SAX BLUE">LINING TAFETTA 42" SAX BLUE</option>
+                            <option value="LINING TAFETTA 42&quot; VIOLET">LINING TAFETTA 42" VIOLET</option>
+                            <option value="LINING TAFETTA 42&quot; GREY">LINING TAFETTA 42" GREY</option>
+                            <option value="LINING TAFETTA 42&quot; BEIGE">LINING TAFETTA 42" BEIGE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BLACK">LINING POLYDRILL 12KG 46" BLACK</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; WHITE">LINING POLYDRILL 12KG 46" WHITE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; COGNAC">LINING POLYDRILL 12KG 46" COGNAC</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; ORANGE">LINING POLYDRILL 12KG 46" ORANGE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; MUSTARD">LINING POLYDRILL 12KG 46" MUSTARD</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; KHAKI">LINING POLYDRILL 12KG 46" KHAKI</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; OLIVE">LINING POLYDRILL 12KG 46" OLIVE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; GREEN">LINING POLYDRILL 12KG 46" GREEN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.GREEN">LINING POLYDRILL 12KG 46" D.GREEN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; TURQUISE">LINING POLYDRILL 12KG 46" TURQUISE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; SKY BLUE">LINING POLYDRILL 12KG 46" SKY BLUE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; NAVY">LINING POLYDRILL 12KG 46" NAVY</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.NAYY">LINING POLYDRILL 12KG 46" D.NAYY</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BLUE">LINING POLYDRILL 12KG 46" BLUE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; PINK">LINING POLYDRILL 12KG 46" PINK</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BORDO">LINING POLYDRILL 12KG 46" BORDO</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; RED">LINING POLYDRILL 12KG 46" RED</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.RED">LINING POLYDRILL 12KG 46" D.RED</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; TAN">LINING POLYDRILL 12KG 46" TAN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.TAN">LINING POLYDRILL 12KG 46" D.TAN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BROWN">LINING POLYDRILL 12KG 46" BROWN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; D.BROWN">LINING POLYDRILL 12KG 46" D.BROWN</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; SAX BLUE">LINING POLYDRILL 12KG 46" SAX BLUE</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; VIOLET">LINING POLYDRILL 12KG 46" VIOLET</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; GREY">LINING POLYDRILL 12KG 46" GREY</option>
+                            <option value="LINING POLYDRILL 12KG 46&quot; BEIGE">LINING POLYDRILL 12KG 46" BEIGE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BLACK">LINING POLYDRILL 13KG 46" BLACK</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; WHITE">LINING POLYDRILL 13KG 46" WHITE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; COGNAC">LINING POLYDRILL 13KG 46" COGNAC</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; ORANGE">LINING POLYDRILL 13KG 46" ORANGE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; MUSTARD">LINING POLYDRILL 13KG 46" MUSTARD</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; KHAKI">LINING POLYDRILL 13KG 46" KHAKI</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; OLIVE">LINING POLYDRILL 13KG 46" OLIVE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; GREEN">LINING POLYDRILL 13KG 46" GREEN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.GREEN">LINING POLYDRILL 13KG 46" D.GREEN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; TURQUISE">LINING POLYDRILL 13KG 46" TURQUISE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; SKY BLUE">LINING POLYDRILL 13KG 46" SKY BLUE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; NAVY">LINING POLYDRILL 13KG 46" NAVY</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.NAYY">LINING POLYDRILL 13KG 46" D.NAYY</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BLUE">LINING POLYDRILL 13KG 46" BLUE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; PINK">LINING POLYDRILL 13KG 46" PINK</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BORDO">LINING POLYDRILL 13KG 46" BORDO</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; RED">LINING POLYDRILL 13KG 46" RED</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.RED">LINING POLYDRILL 13KG 46" D.RED</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; TAN">LINING POLYDRILL 13KG 46" TAN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.TAN">LINING POLYDRILL 13KG 46" D.TAN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BROWN">LINING POLYDRILL 13KG 46" BROWN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; D.BROWN">LINING POLYDRILL 13KG 46" D.BROWN</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; SAX BLUE">LINING POLYDRILL 13KG 46" SAX BLUE</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; VIOLET">LINING POLYDRILL 13KG 46" VIOLET</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; GREY">LINING POLYDRILL 13KG 46" GREY</option>
+                            <option value="LINING POLYDRILL 13KG 46&quot; BEIGE">LINING POLYDRILL 13KG 46" BEIGE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BLACK">LINING POLYDRILL 14 KG 46" BLACK</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; WHITE">LINING POLYDRILL 14 KG 46" WHITE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; COGNAC">LINING POLYDRILL 14 KG 46" COGNAC</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; ORANGE">LINING POLYDRILL 14 KG 46" ORANGE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; MUSTARD">LINING POLYDRILL 14 KG 46" MUSTARD</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; KHAKI">LINING POLYDRILL 14 KG 46" KHAKI</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; OLIVE">LINING POLYDRILL 14 KG 46" OLIVE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; GREEN">LINING POLYDRILL 14 KG 46" GREEN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.GREEN">LINING POLYDRILL 14 KG 46" D.GREEN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; TURQUISE">LINING POLYDRILL 14 KG 46" TURQUISE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; SKY BLUE">LINING POLYDRILL 14 KG 46" SKY BLUE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; NAVY">LINING POLYDRILL 14 KG 46" NAVY</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.NAYY">LINING POLYDRILL 14 KG 46" D.NAYY</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BLUE">LINING POLYDRILL 14 KG 46" BLUE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; PINK">LINING POLYDRILL 14 KG 46" PINK</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BORDO">LINING POLYDRILL 14 KG 46" BORDO</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; RED">LINING POLYDRILL 14 KG 46" RED</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.RED">LINING POLYDRILL 14 KG 46" D.RED</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; TAN">LINING POLYDRILL 14 KG 46" TAN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.TAN">LINING POLYDRILL 14 KG 46" D.TAN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BROWN">LINING POLYDRILL 14 KG 46" BROWN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; D.BROWN">LINING POLYDRILL 14 KG 46" D.BROWN</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; SAX BLUE">LINING POLYDRILL 14 KG 46" SAX BLUE</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; VIOLET">LINING POLYDRILL 14 KG 46" VIOLET</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; GREY">LINING POLYDRILL 14 KG 46" GREY</option>
+                            <option value="LINING POLYDRILL 14 KG 46&quot; BEIGE">LINING POLYDRILL 14 KG 46" BEIGE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BLACK">LINING COTTONDRILL 12KG 56" BLACK</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; WHITE">LINING COTTONDRILL 12KG 56" WHITE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; COGNAC">LINING COTTONDRILL 12KG 56" COGNAC</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; ORANGE">LINING COTTONDRILL 12KG 56" ORANGE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; MUSTARD">LINING COTTONDRILL 12KG 56" MUSTARD</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; KHAKI">LINING COTTONDRILL 12KG 56" KHAKI</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; OLIVE">LINING COTTONDRILL 12KG 56" OLIVE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; GREEN">LINING COTTONDRILL 12KG 56" GREEN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.GREEN">LINING COTTONDRILL 12KG 56" D.GREEN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; TURQUISE">LINING COTTONDRILL 12KG 56" TURQUISE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; SKY BLUE">LINING COTTONDRILL 12KG 56" SKY BLUE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; NAVY">LINING COTTONDRILL 12KG 56" NAVY</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.NAYY">LINING COTTONDRILL 12KG 56" D.NAYY</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BLUE">LINING COTTONDRILL 12KG 56" BLUE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; PINK">LINING COTTONDRILL 12KG 56" PINK</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BORDO">LINING COTTONDRILL 12KG 56" BORDO</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; RED">LINING COTTONDRILL 12KG 56" RED</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.RED">LINING COTTONDRILL 12KG 56" D.RED</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; TAN">LINING COTTONDRILL 12KG 56" TAN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.TAN">LINING COTTONDRILL 12KG 56" D.TAN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BROWN">LINING COTTONDRILL 12KG 56" BROWN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; D.BROWN">LINING COTTONDRILL 12KG 56" D.BROWN</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; SAX BLUE">LINING COTTONDRILL 12KG 56" SAX BLUE</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; VIOLET">LINING COTTONDRILL 12KG 56" VIOLET</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; GREY">LINING COTTONDRILL 12KG 56" GREY</option>
+                            <option value="LINING COTTONDRILL 12KG 56&quot; BEIGE">LINING COTTONDRILL 12KG 56" BEIGE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BLACK">LINING COTTONDRILL 14KG 56" BLACK</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; WHITE">LINING COTTONDRILL 14KG 56" WHITE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; COGNAC">LINING COTTONDRILL 14KG 56" COGNAC</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; ORANGE">LINING COTTONDRILL 14KG 56" ORANGE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; MUSTARD">LINING COTTONDRILL 14KG 56" MUSTARD</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; KHAKI">LINING COTTONDRILL 14KG 56" KHAKI</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; OLIVE">LINING COTTONDRILL 14KG 56" OLIVE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; GREEN">LINING COTTONDRILL 14KG 56" GREEN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.GREEN">LINING COTTONDRILL 14KG 56" D.GREEN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; TURQUISE">LINING COTTONDRILL 14KG 56" TURQUISE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; SKY BLUE">LINING COTTONDRILL 14KG 56" SKY BLUE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; NAVY">LINING COTTONDRILL 14KG 56" NAVY</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.NAYY">LINING COTTONDRILL 14KG 56" D.NAYY</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BLUE">LINING COTTONDRILL 14KG 56" BLUE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; PINK">LINING COTTONDRILL 14KG 56" PINK</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BORDO">LINING COTTONDRILL 14KG 56" BORDO</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; RED">LINING COTTONDRILL 14KG 56" RED</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.RED">LINING COTTONDRILL 14KG 56" D.RED</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; TAN">LINING COTTONDRILL 14KG 56" TAN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.TAN">LINING COTTONDRILL 14KG 56" D.TAN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BROWN">LINING COTTONDRILL 14KG 56" BROWN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; D.BROWN">LINING COTTONDRILL 14KG 56" D.BROWN</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; SAX BLUE">LINING COTTONDRILL 14KG 56" SAX BLUE</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; VIOLET">LINING COTTONDRILL 14KG 56" VIOLET</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; GREY">LINING COTTONDRILL 14KG 56" GREY</option>
+                            <option value="LINING COTTONDRILL 14KG 56&quot; BEIGE">LINING COTTONDRILL 14KG 56" BEIGE</option>
+                          
+                    </select>
+                   
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
                 <div class="varibale">
                     <div class="line_three">
 
-                        <div>
-                            <label for="hardwareColor">Hardware Color:</label>
-                            <input type="text" id="hardwareColor" name="hardwareColor" required>
-                        </div>
+                        
 
                        
                         <div>
@@ -898,7 +1290,7 @@
                             <input type="text" placeholder="Thread OutSide" id="thread" name="thread" required>
                             <input type="text" placeholder="Thread InSide" class="inside" name="threadInside" required>
                         </div>
-                        <div>
+                        <div class="ziperr">
                             <label for="zipper">Zipper:</label>
                             <input type="text" placeholder="Zipper OutSide" id="zipper" name="zipper" required>
                             <input type="text" placeholder="Zipper InSide" class="inside" name="zipperOutside" required>
@@ -907,58 +1299,11 @@
                     </div>
                     <div class="line_four">
 
-
                         <div>
-                            <label for="lining" class="lining">Lining:</label>
-                            <select id="lining" name="lining">
-                                <option value="">Select Lining</option>
-                                <option value="POLYDRILL 10.5 KG">POLYDRILL 10.5 KG</option>
-                                <option value="POLYDRILL 11 KG">POLYDRILL 11 KG</option>
-                                <option value="POLYDRILL 13 KG">POLYDRILL 13 KG</option>
-                                <option value="POLYDRILL 14 KG">POLYDRILL 14 KG</option>
-                                <option value="TAFETTA MATIZ">TAFETTA MATIZ</option>
-                                <option value="TAFETTA PILOT">TAFETTA PILOT</option>
-                                <option value="TAFETTA SUPER TOP">TAFETTA SUPER TOP</option>
-                                <option value="COTTON SHEETING">COTTON SHEETING</option>
-                                <option value="COTTON DRILL">COTTON DRILL</option>
-                                <option value="COTTON TWILL">COTTON TWILL</option>
-                                <option value="CANVAS 12 OUNCE">CANVAS 12 OUNCE</option>
-                                <option value="CANVAS 14 OUNCE">CANVAS 14 OUNCE</option>
-                                <option value="CANVAS 16 OUNCE">CANVAS 16 OUNCE</option>
-                                <option value="CANVAS 18 OUNCE">CANVAS 18 OUNCE</option>
-                                <option value="CANVAS 22 OUNCE">CANVAS 22 OUNCE</option>
-                                <option value="CANVAS 24 OUNCE">CANVAS 24 OUNCE</option>
-                                <option value="CHECK BLUE POLYESTER">CHECK BLUE POLYESTER</option>
-                                <option value="CHECK RED POLYESTER">CHECK RED POLYESTER</option>
-                                <option value="ZIGZAG POLYESTER">ZIGZAG POLYESTER</option>
-                                <option value="PRINTED POLYESTER">PRINTED POLYESTER</option>
-                                <option value="VELVET ONE SIDE">VELVET ONE SIDE</option>
-                                <option value="VELVET TWO SIDE">VELVET TWO SIDE</option>
-                                <option value="PARACHUTE STANDARD">PARACHUTE STANDARD</option>
-                                <option value="MARKING THIN">MARKING THIN</option>
-                                <option value="MARKING THICK">MARKING THICK</option>
-                                <option value="POLY COTTON PRINTED (GREEN BURRY)">POLY COTTON PRINTED (GREEN BURRY)</option>
-                                <option value="LW VELVET WIDTH - 54&quot;">LW VELVET WIDTH - 54"</option>
-                                <option value="FRAME CASTED DM (25X16)MM B-ANTIQUE">FRAME CASTED DM (25X16)MM B-ANTIQUE</option>
-                                <option value="FRAME CASTED DM (25X16)MM GUN">FRAME CASTED DM (25X16)MM GUN</option>
-                                <option value="LOGO LETTER DM (25X12)MM GUN">LOGO LETTER DM (25X12)MM GUN</option>
-                                <option value="LOGO LETTER DM (25X12)MM B-ANTIQUE">LOGO LETTER DM (25X12)MM B-ANTIQUE</option>
-                                <option value="MAGNETIC SNAP (14X2)MM B-ANTIQUE">MAGNETIC SNAP (14X2)MM B-ANTIQUE</option>
-                                <option value="MAGNETIC SNAP (14X2)MM GUN">MAGNETIC SNAP (14X2)MM GUN</option>
-                                <option value="MAGNET HIDDEN (18X3)MM RAW">MAGNET HIDDEN (18X3)MM RAW</option>
-                                <option value="RIVET CAP (6X6)MM B-ANTIQUE">RIVET CAP (6X6)MM B-ANTIQUE</option>
-                                <option value="RIVET CAP (6X6)MM GUN">RIVET CAP (6X6)MM GUN</option>
-                                <option value="RIVET CAP (5X5)MM B-ANTIQUE">RIVET CAP (5X5)MM B-ANTIQUE</option>
-                                <option value="RIVET CAP (5X5)MM GUN">RIVET CAP (5X5)MM GUN</option>
-                                <option value="LINING DM ZIG ZAG - 58&quot; - GREY">LINING DM ZIG ZAG - 58" - GREY</option>
-                                <option value="LINING TAFETTA - 42&quot; - BEIGE">LINING TAFETTA - 42" - BEIGE</option>
-                                <option value="LINING CAMBRAY 44&quot; DENIM">LINING CAMBRAY 44" DENIM</option>
-
-                                
-
-                            </select>
-                            <!-- <input type="text" class="lining" name="lining" required> -->
+                            <label for="hardwareColor">Hardware Color:</label>
+                            <input type="text" id="hardwareColor" name="hardwareColor" required>
                         </div>
+                       
                         <div>
                             <label for="embossing" class="embossing">Embossing:</label>
                             <input type="text" class="embossing" name="embossing" required>
@@ -1022,8 +1367,7 @@
                                             <option value=" ">Select Merchant Name</option>
                                             <option value="SUDIPTA BISWAS">SUDIPTA BISWAS</option>
                                             <option value="APURWA KUMAR">APURWA KUMAR</option>
-                                            <option value="RESHMI SHIL">RESHMI SHIL</option>
-                                            <option value="AHIRTAVIYAS PAL">AHIRTAVIYAS PAL</option>
+                                            <option value="LOPITA CHAKRABORTY">LOPITA CHAKRABORTY</option>
                                             <option value="SOMNATH MUKHERJEE">SOMNATH MUKHERJEE</option>  
                                             <option value="PRANTIK DUTTA">PRANTIK DUTTA</option>
                                             <option value="ABHIJEET SEAL">ABHIJEET SEAL</option>
@@ -1073,7 +1417,7 @@
               form.reset();
             }
           };
-          xhr.open("POST", "https://script.google.com/macros/s/AKfycbxCAzG2YryCGo5qz_9A_LsiWOaDG86bWgHggULFGNlHxFqrjLQupuWxSR39410VwIJs/exec");
+          xhr.open("POST", "https://script.google.com/macros/s/AKfycbzC8uh5gmOoRgQcjn_4Pl85-k4fwV0I8mDhC3VBor0b8OcGsZrombUo4KIctwxcqC1H/exec");
           xhr.send(formData);
         }
 
