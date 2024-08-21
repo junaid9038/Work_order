@@ -1475,6 +1475,9 @@
                 <label for="additionalComment">Additional Comment:</label>
                 <input type="text" id="additionalComment" name="additionalComment" >
 
+                <label for="workOrderLink">Work Order Link:</label>
+                <input type="text" id="workOrderLink" name="workOrderLink" >
+
 
                 <!-- Add other fields here -->
                 <input type="submit" value="Submit">
@@ -1499,7 +1502,7 @@
               form.reset();
             }
           };
-          xhr.open("POST", "https://script.google.com/macros/s/AKfycbx4L7GRo8E_xrprfJxMooV0BnE6FROvfda8pdO4zsuXycVqjq3iC-JD943vJWOI52Cx/exec");
+          xhr.open("POST", "https://script.google.com/macros/s/AKfycbxj87cAB-QSndCJevRRUelTjOudvP56Ztfr8LUOyObWni_dsIbxvmusJSVa9798WNjx/exec");
           xhr.send(formData);
         }
 
